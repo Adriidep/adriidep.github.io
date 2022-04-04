@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(0deg, rgba(2,0,36,0.25) 0%, rgba(156,32,180,0.25) 35%, rgba(0,212,255,0.25) 100%);
+}
+
+.icon {
+    position: relative; left: 0px;
+}
+
+main {
+    position: fixed; top: 0px;
+    margin: auto;
+    text-align: center;
+}
