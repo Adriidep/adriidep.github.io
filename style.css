@@ -1,13 +1,141 @@
 body {
-    background: linear-gradient(0deg, rgba(2,0,36,0.25) 0%, rgba(156,32,180,0.25) 35%, rgba(0,212,255,0.25) 100%);
+    background: black;
 }
 
-.icon {
-    position: relative; left: 0px;
+h1{
+    color: white;
+    font-family: Verdana, sans-serif;
 }
 
-main {
-    position: fixed; top: 0px;
-    margin: auto;
+p{
+    color:whitesmoke;
+}
+
+main{
+    padding: 10px;
+}
+main section .icono {
+    margin-left: auto;
+}
+
+main section .principal {
+    margin-right: 0 auto;
     text-align: center;
+    padding-top: 0px;
+}
+
+main section > div{
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.twitter{
+    border: solid 1px;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    color: aqua;
+    font-size: 9px;
+    padding-bottom: 10px;
+}
+
+.twitter:hover{
+    background-color: lightblue;
+}
+
+.btn-twitter{
+    text-decoration: none;
+    color: white;
+}
+
+.instagram{
+    border: solid 1px;
+    padding: 10px 20px;
+    font-family: Montserrat, sans-serif;
+    color: purple;
+    font-size: 9px;
+}
+
+.instagram:hover{
+    background-color: plum;
+}
+
+.btn-instagram{
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin{
+    border: solid 1px;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 9px;
+}
+
+.linkedin:hover{
+    background-color: darkblue;
+}
+
+.btn-linkedin{
+    color: white;
+    text-decoration: none;
+}
+
+.github{
+    border: solid 1px;
+    padding: 10px 20px;
+    font-family: Monospace, sans-serif;
+    color: whitesmoke;
+    font-size: 9px;
+}
+
+.github:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-gthb{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-gthb:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.twitch{
+    border: solid 1px;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 9px;
+}
+
+.twitch:hover{
+    background-color: purple;
+}
+
+.btn-twitch{
+    color: white;
+    text-decoration: none;
+}
+
+.ytbe{
+    border: solid 1px;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 9px;
+}
+
+.ytbe:hover{
+    background-color: darkred;
+}
+
+.btn-ytbe{
+    color: white;
+    text-decoration: none;
 }
