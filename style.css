@@ -1,18 +1,33 @@
+*{
+    margin: 0;
+}
+
 body {
     background: black;
 }
 
 h1{
     color: white;
-    font-family: Verdana, sans-serif;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 p{
     color:whitesmoke;
+    text-align: justify;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutme{
+    padding-bottom: 10px;
 }
 
 main{
     padding: 10px;
+    margin: auto;
 }
 main section .icono {
     margin-left: auto;
@@ -28,6 +43,21 @@ main section > div{
     display: inline-block;
     vertical-align: top;
 
+}
+
+.icono{
+    width: 30%;
+}
+
+.principal{
+    width: 45%;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+.links{
+    text-align: center;
+    width: 20%;
 }
 
 .twitter{
