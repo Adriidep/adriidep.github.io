@@ -86,7 +86,7 @@ h1{
         "footer"  50px
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
     .grid-container{
 
         grid-template:
@@ -99,7 +99,7 @@ h1{
     }
 }
 
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
     .grid-container{
 
         grid-template:
