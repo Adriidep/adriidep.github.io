@@ -1,9 +1,28 @@
-*{
+* {
     margin: 0;
+    padding: 0;
 }
 
-body {
+html{
+    min-height: 100%;
+}
+
+body{
     background: black;
+    color: white;
+    text-align: center;
+    min-height: 100%;
+}
+
+.tittle{
+    padding-top: 30px;
+}
+
+p{
+    color:whitesmoke;
+    text-align: justify;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
@@ -14,50 +33,89 @@ h1{
     padding-bottom: 20px;
 }
 
-p{
-    color:whitesmoke;
-    text-align: justify;
-    font-size: 11px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.aboutme{
-    padding-bottom: 10px;
-}
-
-main{
-    padding: 10px;
-    margin: auto;
-}
-main section .icono {
-    margin-left: auto;
-}
-
-main section .principal {
-    margin-right: 0 auto;
+.pfooter{
+    padding-top: 15px;
     text-align: center;
-    padding-top: 0px;
 }
 
-main section > div{
-    display: inline-block;
-    vertical-align: top;
-
+.myphoto{
+    width: 200px;
+    height: 200px;
+    margin: center;
+    padding: 10px;
 }
 
-.icono{
-    width: 30%;
+.aboutemail{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
 }
 
-.principal{
-    width: 45%;
+.header{
+    grid-area: header;
+}
+
+.navbar{
+    grid-area: navbar;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.main{
+    grid-area: main;
+    padding-top: 10px;
     padding-left: 5px;
     padding-right: 20px;
 }
 
+.footer{
+    grid-area: footer;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.grid-container{
+    display:grid;
+    grid-template:
+        "header"  100px
+        "sidebar" 250px
+        "navbar"  auto
+        "main"    auto
+        "footer"  50px
+}
+
+@media (min-width: 600px) {
+    .grid-container{
+
+        grid-template:
+        "header  header"  100px
+        "sidebar sidebar" 250px
+        "main    navbar"  auto
+        "footer  footer"  50px /
+        auto     30%
+
+    }
+}
+
+@media (min-width: 900px) {
+    .grid-container{
+
+        grid-template:
+        "header  header  header"  100px
+        "sidebar main    navbar"  auto
+        "footer  footer  footer"  50px /
+        30%      auto    20%
+
+    }
+}
+
 .links{
     text-align: center;
-    width: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 .twitter{
